@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #3498db;
+  padding-top: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 15px;
+}
+.icon {
+  margin-left: 180vh;
+}

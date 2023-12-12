@@ -1,0 +1,66 @@
+<div class="container">
+  <h2>Shopping Cart</h2>
+  <a href="#" class="btn btn-primary" routerLink="/product"
+    >back to product page</a
+  >
+
+  <div *ngIf="cartItems.length === 0">
+    <p>Your cart is empty.</p>
+  </div>
+
+  <table *ngIf="cartItems.length > 0" class="table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>quintity</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of cartItems; let i = index">
+        <td>{{ item.title }}</td>
+
+        <td>
+          <div class="d-flex">
+            <button
+              (click)="decreaseQuantity(item)"
+              class="btn-success"
+              id="decreaseQuantityBtn"
+            >
+              <img src="assets\minus-sign.png" height="20px" width="20px" />
+            </button>
+            <b class="m-2">{{ item.quantity }}</b>
+            <button
+              (click)="increaseQuantity(item)"
+              class="btn-info"
+              id="increaseQuantityBtn"
+            >
+              <img src="assets\add.png" height="20px" width="20px" />
+            </button>
+          </div>
+        </td>
+        <td style="font: 100">{{ item.price * item.quantity }}</td>
+        <td>
+          <button class="btn btn-danger" (click)="removeFromCart(i)">
+            Remove
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="price">Total Price:</td>
+        <td class="fw-bold">{{ calculateTotalPrice() }}</td>
+        <td routerLink="/dashboard/checkout"></td>
+      </tr>
+      <button (click)="checkOut()" class="checkout">Checkout</button>
+    </tbody>
+  </table>
+
+  <button
+    class="btn btn-warning"
+    *ngIf="cartItems.length > 0"
+    (click)="clearCart()"
+  >
+    Clear Cart
+  </button>
+</div>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Angular Basics",
+    "description": "Learn the fundamentals of Angular.",
+    "instructor": "John Doe",
+    "price": 49.99,
+    "duration": "4 hrs",
+    "level": "hard"
+  },
+  {
+    "id": 2,
+    "title": "React Crash Course",
+    "description": "A quick introduction to React.js.",
+    "instructor": "Jane Smith",
+    "price": 39.99,
+    "duration": "8 hrs",
+    "level": "hard"
+  },
+  {
+    "id": 3,
+    "title": "Node.js Essentials",
+    "description": "Master the basics of Node.js for server-side development.",
+    "instructor": "Bob Johnson",
+    "price": 59.99,
+    "duration": "10 hrs",
+    "level": "easy"
+  },
+  {
+    "id": 4,
+    "title": "Angular Basics",
+    "description": "Learn the fundamentals of Angular.",
+    "instructor": "John Doe",
+    "price": 49.99,
+    "duration": "9 hrs",
+    "level": "easy"
+  },
+  {
+    "id": 5,
+    "title": "React Crash Course",
+    "description": "A quick introduction to React.js.",
+    "instructor": "Jane Smith",
+    "price": 39.99,
+    "duration": "4 hrs",
+    "level": "hard"
+  },
+  {
+    "id": 6,
+    "title": "Node.js Essentials",
+    "description": "Master the basics of Node.js for server-side development.",
+    "instructor": "Bob Johnson",
+    "price": 59.99,
+    "duration": "12 hrs",
+    "level": "easy"
+  },
+  {
+    "id": 7,
+    "title": "Node.js Essentials",
+    "description": "Master the basics of Node.js for server-side development.",
+    "instructor": "Bob Johnson",
+    "price": 59.99,
+    "duration": "10 hrs",
+    "level": "easy"
+  },
+  {
+    "id": 8,
+    "title": "Angular Basics",
+    "description": "Learn the fundamentals of Angular.",
+    "instructor": "John Doe",
+    "price": 49.99,
+    "duration": "9 hrs",
+    "level": "easy"
+  },
+  {
+    "id": 9,
+    "title": "React Crash Course",
+    "description": "A quick introduction to React.js.",
+    "instructor": "Jane Smith",
+    "price": 39.99,
+    "duration": "4 hrs",
+    "level": "hard"
+  },
+  {
+    "id": 10,
+    "title": "Node.js Essentials",
+    "description": "Master the basics of Node.js for server-side development.",
+    "instructor": "Bob Johnson",
+    "price": 59.99,
+    "duration": "12 hrs",
+    "level": "easy"
+  }
+]
